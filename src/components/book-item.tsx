@@ -1,4 +1,4 @@
-import type BookData from "@/types"
+import type { BookData } from "@/types"
 import Link from "next/link"
 import style from './book-item.module.css'
 
@@ -6,7 +6,6 @@ export default function BookItem ({
   id,
   title,
   subTitle,
-  description,
   author,
   publisher,
   coverImgUrl
